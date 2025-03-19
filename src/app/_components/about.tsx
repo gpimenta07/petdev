@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import about1 from "../../../public/about-1.png";
@@ -59,13 +58,19 @@ export default function About() {
               </li>
             </ul>
             <div className="flex gap-3">
-              <a href={`https://wa.me/5521980284425?text=Olá, vim pelo site e gostaria de mais informações.`} target="_blank">
+              <a
+                href={`https://wa.me/5521980284425?text=Olá, vim pelo site e gostaria de mais informações.`}
+                target="_blank"
+              >
                 <Button className="bg-[#E84C3D] cursor-pointer duration-300 hover:bg-red-900">
                   <WhatsappLogo className="w-5" />
                   Contato Via Whatssap
                 </Button>
               </a>
-              <a href={`https://maps.app.goo.gl/bmHKgkRcDg9VrWzq9`} target="_blank">
+              <a
+                href={`https://maps.app.goo.gl/bmHKgkRcDg9VrWzq9`}
+                target="_blank"
+              >
                 <Button className="cursor-pointer duration-300">
                   <Image src={Loc} alt="icone-localização" className="w-5" />{" "}
                   Endereço da loja

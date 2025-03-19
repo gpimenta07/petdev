@@ -17,7 +17,7 @@ export default function Hero() {
           priority
           className="object-cover opacity-60 lg:hidden"
         ></Image>
-        <div className="absolute lg:hidden inset-0 bg-black opacity-60"></div>
+        <div className="absolute lg:hidden inset-0 bg-black opacity-50"></div>
       </div>
       <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -26,7 +26,7 @@ export default function Hero() {
               Seu pet merece cuidado, carinho e atenção especial.
             </h1>
             <p className="lg:text-lg" data-aos="fade-down">
-              Oferecemos os melhores serviçõs para garantir o bem-estar e a
+              Oferecemos os melhores serviços para garantir o bem-estar e a
               felicidade do seu amigo de quatro patas.
             </p>
 
